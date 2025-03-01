@@ -1,26 +1,39 @@
 # 🏥 NurseEase(my-healthcare-app)- Your Smart Healthcare Companion
 
-NurseEase is an AI-powered healthcare application designed to assist patients, caregivers, and healthcare professionals in managing medical routines efficiently. 
-
 ## 🚀 Features
 
-- 🏠 **Home Dashboard:** View daily health stats and reminders  
-- 💊 **Medication Tracker:** AI-powered pill reminders & tracking  
-- 📅 **Appointment Scheduling:** Seamless doctor appointment management  
-- 🏃 **Activity Monitoring:** Sync with wearables for real-time health tracking  
-- 🔔 **Alerts & Notifications:** Stay updated with important reminders  
+### 🌐 **Frontend (React.js)**
+- Displays **patient details, task scheduling, and voice notes**.
+- Supports **dark/light mode toggle**.
+- Sends patient reports for **AI-powered summarization**.
 
-## 🎯 Getting Started
+### ⚙️ **Backend (Node.js + Express)**
+- Provides **REST APIs** for storing & fetching patient data.
+- Handles **AI-based document summarization & vitals analysis**.
 
-### 📌 Prerequisites
-Ensure you have the following installed:
-- [Node.js](https://nodejs.org/) (For frontend & backend dependencies)
-- [Git](https://git-scm.com/) (Version control)
-- Any package manager (npm or yarn)
+### 🧠 **AI Model Integration**
+- **GPT-4 / T5 (Text Summarization):** Summarizes patient reports.
+- **Vision Transformer (ViT) + ML Models:** Checks vitals.
+- Can be **self-hosted (Hugging Face)** or accessed via **OpenAI API**.
 
-### 📥 Installation
+## 🔄 **Workflow Overview**
+1. **User (Doctor/Nurse)** interacts with the **frontend** (React.js).
+2. Requests are sent to the **backend** (Node.js + Express).
+3. **AI models** analyze text & images for summarization and vitals.
+4. The **output** is displayed on the UI for medical professionals.
+5. Chatbot assists with **medical administration & insights**.
 
-Clone the repository:
-```bash
-git clone https://github.com/<your-username>/nurseease.git
-cd nurseease
+## 📺 **Demo Video**
+🎥 Watch the prototype in action: **[Insert Google Drive/YouTube Link]**
+
+## 🛠️ **Tech Stack**
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **AI Models:** OpenAI GPT-4, T5, Vision Transformer (ViT)
+- **Database:** MongoDB / Firebase
+
+## 📌 **Setup Instructions**
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo-name.git
+   cd your-repo-name
