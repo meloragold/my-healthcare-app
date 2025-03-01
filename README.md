@@ -1,4 +1,4 @@
-# 🏥 NurseEase - Your Smart Healthcare Companion
+# 🏥 NurseEase(my-healthcare-app)- Your Smart Healthcare Companion
 
 NurseEase is an AI-powered healthcare application designed to assist patients, caregivers, and healthcare professionals in managing medical routines efficiently. 
 
