@@ -65,7 +65,7 @@ An advanced **healthcare management system** that integrates **AI-powered docume
 - **Frontend:** React.js, Tailwind CSS
 - **Backend:** Node.js, Express.js
 - **AI Models:** OpenAI GPT-4, T5, Vision Transformer (ViT)
-- **Database:** MongoDB / Firebase
+- **Database:** Mysql
 
 ## 📌 **Setup Instructions**
 1. Clone the repository:
